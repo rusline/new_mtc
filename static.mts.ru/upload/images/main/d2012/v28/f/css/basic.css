@@ -12079,3 +12079,50 @@ text-decoration:none !important;
   font-size: 11px;
   color: #3d3d3d;
 }
+
+/* ----------------------------------------------- */
+.ready-decisions{margin-left:-10px}
+.ready-decisions h2{font-family:Verdana, Geneva, sans-serif;font-size:14px;font-weight:400;color:#000;}
+.advantages-box{float:right;width:205px;background:#e91c2a;border-radius: 5px; -webkit-border-radius: 5px;padding:8px 8px 8px 7px;font-family:Verdana, Geneva, sans-serif;margin-right:-10px}
+.advantages-box h2{font-size:14px;font-weight:400;color:#fff;padding:0 0 10px 0;margin:0}
+.advantages-box div{background:#fff;border-radius: 5px; -webkit-border-radius: 5px;padding:20px 10px;color:#000;font-size:11px;}
+
+.decisions-list{}
+.decisions-list ul{margin:0 -15px 0 0;padding:0;list-style-type:none}
+.decisions-list ul li{float:left;width:142px;height:74px;list-style-type:none;background:none;padding:0;margin:0}
+.decisions-list ul li img{float:left;margin:0 7px 30px 0}
+.decisions-list ul li a{font-size:12px;line-height:11px}
+
+.deciion-slogan{padding:10px 0 20px 0;clear:both;color:#e91c2a;font-size:18px;text-transform:uppercase;font-family:Verdana, Geneva, sans-serif}
+.deciion-slogan .count{float:right;background:url(../img/new/num_right.png) top right no-repeat;padding:0 2px 0 0;height:40px;margin:5px -5px 0 0}
+.deciion-slogan .count a{float:left;background:url(../img/new/num.png) 0 0 no-repeat;width:27px;height:40px}
+.deciion-slogan .count a.num0{background:url(../img/new/num0.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num1{background:url(../img/new/num1.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num2{background:url(../img/new/num2.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num3{background:url(../img/new/num3.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num4{background:url(../img/new/num4.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num5{background:url(../img/new/num5.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num6{background:url(../img/new/num6.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num7{background:url(../img/new/num7.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num8{background:url(../img/new/num8.png) 0 0 no-repeat;}
+.deciion-slogan .count a.num9{background:url(../img/new/num9.png) 0 0 no-repeat;}
+
+.select-box{clear:both;background:url(../img/new/sh.png) bottom center no-repeat;padding:20px 0 33px 0}
+.select-box .sel00{float:left;margin:0 23px 0 0;width:128px}
+
+.logos-box{padding:10px 0;margin-right:-5px}
+.logos-box ul.ltabs{margin:0;padding:0;list-style-type:none;float:right;width:214px}
+.logos-box ul.ltabs li{margin:0;padding:0;list-style-type:none;width:102px;margin:0 0 5px 5px;background:#fff;float:left;text-align:center;
+ -webkit-box-shadow:inset 0 0 10px 10px #F6F6F6;box-shadow:inset 0 0 10px 10px #F6F6F6;opacity:0.5;height:102px;line-height:102px;}
+ .logos-box ul.ltabs li img{vertical-align:middle}
+.logos-box ul.ltabs li.current{opacity:1}
+.logos-box ul.ltabs li:nth-child(3){clear:both}
+.logos-box .desc{display:none;width:426px}
+.desc.visible{display:block}
+.logos-box .desc{position:relative;}
+.logos-box .desc div{background:url(../img/new/fon.png);padding:7px 10px;left:0;bottom:0;position:absolute}
+.logos-box .desc div p{color:#000;font-size:11px}
+.logos-box .desc div img{float:left;margin:10px}
+
+
+
