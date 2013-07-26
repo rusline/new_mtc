@@ -1,0 +1,346 @@
+
+div.rar, p.rar, div.tx p.rar {
+    background: url("../../../../design/i/ico-rar.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.rar {
+    background: url("../../../f/i/ico-rar.gif") no-repeat scroll 0 0 transparent;
+}
+div.pdf, p.pdf, div.tx p.pdf {
+    background: url("../../../../design/i/ico-pdf.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+div.doc, p.doc, div.tx p.doc {
+    background: url("../../../../design/i/ico-doc.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.doc {
+    background: url("../../../f/i/ico-doc.gif") no-repeat scroll 0 0 transparent;
+}
+div.txt, p.txt, div.tx p.txt {
+    background: url("../../../../design/i/ico-txt.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.txt {
+    background: url("../../../f/i/ico-txt.gif") no-repeat scroll 0 0 transparent;
+}
+div.xls, p.xls, div.tx p.xls {
+    background: url("../../../../design/i/ico-xls.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.xls {
+    background: url("../../../f/i/ico-xls.gif") no-repeat scroll 0 0 transparent;
+}
+div.zip, p.zip, div.tx p.zip {
+    background: url("../../../../design/i/ico-zip.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.zip {
+    background: url("../../../f/i/ico-zip.gif") no-repeat scroll 0 0 transparent;
+}
+div.rtf, p.rtf, div.tx p.rtf {
+    background: url("../../../../design/i/ico-rtf.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.rtf {
+    background: url("../../../f/i/ico-rtf.gif") no-repeat scroll 0 0 transparent;
+}
+div.ppt, p.ppt, div.tx p.ppt {
+    background: url("../../../../design/i/ico-ppt.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.ppt {
+    background: url("../../../f/i/ico-ppt.gif") no-repeat scroll 0 0 transparent;
+}
+div.exe, p.exe, div.tx p.exe {
+    background: url("../../../../design/i/ico-exe.gif") no-repeat scroll 0 0 transparent;
+    font: 11px Arial;
+    min-height: 40px;
+    padding-left: 43px;
+}
+a.exe {
+    background: url("../../../f/i/ico-exe.gif") no-repeat scroll 0 0 transparent;
+}
+div.rar span, div.pdf span, div.doc span, div.txt span, div.xls span, div.zip span, div.rtf span, div.ppt span, div.exe span, p.rar span, p.pdf span, p.doc span, p.txt span, p.xls span, p.zip span, p.rtf span, p.ppt span, p.exe span {
+    display: block;
+    font: 12px Arial;
+    margin-bottom: 4px;
+}
+div.rar, div.doc, div.txt, div.xls, div.zip, div.rtf, div.ppt, div.exe {
+    width: 626px;
+}
+div.pdf {
+    width: auto;
+}
+
+.opros-aside {
+    width: 237px;
+    height: 115px;
+    background: url(../i/opros-bg.png) 0 0 no-repeat;
+    margin: 20px 0;
+    position: relative;
+}
+
+.opros-aside h4.opinion {
+    width: 113px;
+    height: 33px;
+    background: url(../i/opros-h4.png) 0 0 no-repeat;
+    position: absolute;
+    top: 18px; left: 106px;
+    text-indent: -9999px;
+}
+
+.opros-aside p {
+    font-size: 11px;
+    width: 125px;
+    position: absolute;
+    top: 67px; left: 106px;
+}
+
+/* LinkButton на On-line анкете для подключения к корпоративным тарифам */
+.corpFormSend {
+	margin: 10px 0 0 0;
+}
+/* Стиль текста: ошибки */
+.red {
+	color:#E3000A;
+}
+/* Стиль текста: указание примеров */
+.grey {
+	color: #898989;
+	font-size: 11px;
+}
+.uppercase-text {
+	text-transform: uppercase;
+}
+.toLeft {
+	float:left;
+}
+.paragraph {
+	clear:left;
+}
+.inputControl {
+	float:left;
+	width:320px;
+}
+
+/*Easy payment partner anket start*/
+
+.ep-form-root
+{
+    width: 645px;
+}
+
+.ep-form-row
+{
+    width: inherit;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+
+    .ep-form-row h3
+    {
+        color: #0070c0;
+        font-weight: bold;
+    }
+
+.ep-form-col-left
+{
+    margin: 3px 10px 0 0;
+    overflow: hidden;
+    float: left;
+}
+
+.ep-userdata .ep-form-col-left
+{
+    width: 80px;
+}
+
+.ep-form-col-right
+{
+    padding: 0 10px 0 0;
+    overflow: hidden;
+    width: auto;
+}
+
+    .ep-form-col-right input
+    {
+        width: 100%;
+    }
+
+
+.ep-userdata .ep-form-col-right
+{
+    width: 500px;
+}
+
+    .ep-userdata .ep-form-col-right input, .ep-fixed input
+    {
+        width: 200px;
+    }
+
+.ep-field-error
+{
+    margin: 2px 0 0 0;
+    width: 500px;
+    color: red;
+}
+
+.ep-field-example
+{
+    color: gray;
+    font-size: smaller;
+}
+
+.ep-field-required
+{
+    color: red;
+    float: left;
+}
+
+.ep-input
+{
+    margin: 0 0 0 7px;
+}.ep-form-root
+{
+    width: 645px;
+}
+
+.ep-form-row
+{
+    width: inherit;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+
+    .ep-form-row h3
+    {
+        color: #0070c0;
+        font-weight: bold;
+    }
+
+.ep-form-col-left
+{
+    margin: 3px 10px 0 0;
+    overflow: hidden;
+    float: left;
+}
+
+.ep-userdata .ep-form-col-left
+{
+    width: 80px;
+}
+
+.ep-form-col-right
+{
+    padding: 0 10px 0 0;
+    overflow: hidden;
+    width: auto;
+}
+
+    .ep-form-col-right input
+    {
+        width: 100%;
+    }
+
+
+.ep-userdata .ep-form-col-right
+{
+    width: 500px;
+}
+
+    .ep-userdata .ep-form-col-right input, .ep-fixed input
+    {
+        width: 200px;
+    }
+
+.ep-field-error
+{
+    margin: 2px 0 0 0;
+    width: 500px;
+    color: red;
+}
+
+.ep-field-example
+{
+    color: gray;
+    font-size: smaller;
+}
+
+.ep-field-required
+{
+    color: red;
+    float: left;
+}
+
+.ep-input
+{
+    margin: 0 0 0 7px;
+}
+
+.ep-input .jqTransformInputWrapper
+{
+    float: none !important;
+}
+/*Easy payment partner anket end*/
+
+/*стили для лайков*/
+.likeButtons {
+	background: url("../i/arrow_down.png") no-repeat scroll 0 0 transparent;
+	font-weight: bold;
+	line-height: 150%;
+	padding: 0 0 5px 21px;
+	text-decoration: none;
+}
+.show {
+	background-image: url("../i/arrow_up.png");
+}
+.likeButtons span {
+	border-bottom: 1px dotted #1481B4;
+	cursor: pointer;
+}
+.innerLike {
+	float: left;
+	height: 35px;
+	width: 110px;
+	padding: 0 0 0 10px;
+}
+.innerMailLike {
+	float: left;
+	height: 35px;
+	width: 230px;
+	padding: 0 0 0 10px;
+}
+.social-wrap {
+	padding: 13px 0 15px;
+	border-top: 1px solid #D8D8D8;
+	margin: 0 20px;
+}
+.content-wrapper-3 .content #likes {
+	height: 90px;
+}
+#likes {
+	display: none;
+	padding: 15px 0 0 0;
+	height: 50px;
+}
+.texts .innerLike .b {
+	border-bottom: none;
+}
+

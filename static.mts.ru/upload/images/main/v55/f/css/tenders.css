@@ -1,0 +1,527 @@
+.texts {
+    min-height: 10px;
+}
+
+.texts h3 {
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.texts .add_contact {
+    margin: 0 0 4px;
+}
+
+.add_contact a {
+    display: block;
+    width: 108px;
+    height: 23px;
+    background: url(../i/tenders/add_btn.png) 0 0 no-repeat #76c635;
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 21px;
+    padding: 0 0 0 25px;
+}
+
+
+.h-rnd-wrap {
+    position: relative;
+}
+
+.tlr
+, .trr 
+, .blr
+, .brr {
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: url(../i/tenders/rnd.png) 0 0 no-repeat;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 1;
+}
+
+.trr {
+    background-position: -9px 0;
+    left: auto; right: 0;
+}
+
+.blr {
+    background-position: 0 -9px;
+    top: auto; bottom: 0;
+}
+
+.brr {
+    background-position: -9px -9px;
+    top: auto; left: auto; bottom: 0; right: 0;
+}
+
+.h-rnd-wrap2 .blr {
+    background-position: 0 -18px;
+}
+
+.h-rnd-wrap2 .brr {
+    background-position: -9px -18px;
+}
+
+.h-rnd-wrapblue .blr {
+    background-position: 0 -27px;
+}
+
+.h-rnd-wrapblue .brr {
+    background-position: -9px -27px;
+}
+
+.contactface {
+    width: 100%;
+}
+
+.ie7 .contactface {
+    border-bottom: 1px solid #d2d3d6;
+}
+
+.contactface th {
+    font-weight: normal;
+    font-size: 11px;
+    color: #666;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid #d2d3d6;
+    background: url(../i/tenders/cf-th-bg.png) 0 0 repeat-x #ccc;
+    padding: 5px 10px;
+}
+
+.contactface td {
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #d2d3d6;
+    padding: 5px 10px;
+}
+
+.contactface .fix_w {
+    width: 27px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+}
+
+.now {
+    white-space: nowrap;
+}
+
+.texts .contactface ul {
+    margin: 0;
+    padding: 0;
+}
+
+.texts .contactface ul li {
+    padding: 0 0 0 10px;
+    background: url(../i/tenders/bul1.png) 0 4px no-repeat;
+    font-size: 11px;
+}
+
+.contactface .edit_tr2 td {
+    background: #ecf9fd;
+} 
+
+.contactface .edit_tr2 td {
+    background: #ecf9fd;
+} 
+
+.contactface .edit_tr > td {
+    padding: 27px 10px 0;
+    background: #ecf9fd;
+} 
+
+.contactface .tr-colored td {
+    background: #ecf9fd;
+}
+
+.nobg {
+    background: #fff;
+    border-top: 1px solid #d2d3d6;
+    position: relative;
+    left: -10px;
+    margin: 0 -20px 0 0;
+    height: 20px;
+}
+
+.edit_table th {
+    border: none;
+    background: none;
+    padding: 0 10px 10px 20px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.edit_table td {
+    border: none;
+    padding: 0 0 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.edit_table .star
+, .b-step .star {
+    color: #ca0000;
+}
+
+.b-step .star {
+    float: left;
+    width: 10px;
+    position: relative;
+    left: -10px;
+    margin: 0 -10px 0 0;
+    z-index: 1;
+}
+
+form.jqtransformdone .edit_table label
+, form.jqtransformdone .b-step label {
+    float: none;
+    margin: 0;
+}
+
+form.jqtransformdone .b-step .check label {
+    float: left;
+}
+
+.edit_table .text {
+    width: 295px;
+}
+
+.texts .edit_table .it {
+    font-size: 11px;
+    font-style: italic;
+    color: #666;
+    margin: 0 0 15px;
+    width: 422px;
+}
+
+.texts .contactface .RadTreeView li {
+    font-size: 12px;
+    padding: 0;
+    background: none;
+}
+
+.edit_table button.jqTransformButton {
+    float: left;
+}
+
+.cancel {
+    float: left;
+    font-size: 11px;
+    line-height: 23px;
+    color: #333;
+    margin: 0 0 0 15px;
+}
+
+
+.texts .show-filters {
+    padding: 0 0 0 21px;
+    background: url(../i/tenders/bul2.png) 0 0 no-repeat;
+    line-height: 14px;
+    zoom: 1;
+}
+
+.show-filters a {
+    border-bottom: 1px dotted #1481b4;
+    text-decoration: none; 
+}
+
+.h-rnd-wrap2 .contactface th {
+    padding: 5px;
+}
+
+.h-rnd-wrap2 .contactface td {
+    padding: 10px 5px;
+    font-size: 11px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.h-rnd-wrap2 ul.pager {
+    margin: 0;
+    height: auto;
+    float: left;
+    color: #666;
+}
+
+.h-rnd-wrap2 ul.pager a {
+    width: auto;
+}
+
+.h-rnd-wrap3 .contactface {
+    border-bottom: 1px solid #d2d3d6;
+}
+
+.h-rnd-wrap3 .contactface th {
+    padding: 10px 15px;
+}
+
+.h-rnd-wrap3 .contactface .lastt {
+    width: 100px;
+}
+
+.h-rnd-wrap3 .contactface td {
+    padding: 15px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.b-filter {
+    background: url(../i/tenders/flt-bg.png) 0 100% repeat-x #fff;
+    border: 1px solid #d2d3d6;
+    padding: 10px 15px;
+    zoom: 1;
+}
+
+.sort {
+    float: right;
+}
+
+.sort h4 {
+    float: left;
+    margin: 0 6px 0 0;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    color: #666;
+}
+
+.sort .zak {
+    float: left;
+    font-size: 11px;
+    line-height: 19px;
+    color: #666;
+    margin: 0 0 0 8px;
+}
+
+.texts .det {
+    margin: 20px 0 0;
+    font-size: 11px;
+    font-style: italic;
+    color: #666;
+}
+
+.det img {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+
+.texts .steps {
+    margin: 0 0 65px;
+    background: url(../i/tenders/bul3.png) 0 14px repeat-x;
+    float: left;
+}
+
+.texts ul.steps li {
+    margin: 0 0 0 100px;
+    padding: 0;
+    background: none;
+    float: left;
+}
+
+.texts ul.steps li:first-child {
+    margin: 0;
+    padding: 0 0 0 25px;
+    background: #fff;
+}
+
+.steps a {
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+
+.steps span {
+    float: left;
+    width: 34px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    background: url(../i/tenders/step-bg.png) 0 0 no-repeat;
+    text-align: center;
+}
+
+.steps a:hover span
+, .steps .active a span {
+    background-position: 0 -28px;
+}
+
+.steps i {
+    display: block;
+    width: 100px;
+    position: absolute;
+    top: 38px; left: 50%;
+    margin: 0 0 0 -50px;
+    text-align: center;
+    font-size: 11px;
+    color: #666;
+}
+
+
+.regtable {
+    margin: 0 0 30px;
+}
+
+.regtable th {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0 10px 10px 30px;
+    width: 210px;
+}
+
+.regtable th.vtop {
+    vertical-align: top;
+}
+
+.regtable td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0 0 10px;
+}
+
+.regtable input.text {
+    width: 295px;
+}
+
+.regtable input.text2 {
+    width: 205px;
+}
+
+.regtable input.text3 {
+    width: 115px;
+}
+
+.regtable input.text4 {
+    width: 40px;
+}
+
+.regtable select {
+    width: 288px;
+}
+
+.rd-wr
+, .rm-wr
+, .ry-wr {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.regtable .rd-wr select {
+    width: 33px;
+}
+
+.regtable .rm-wr select {
+    width: 113px;
+}
+
+.regtable .ry-wr select {
+    width: 53px;
+}
+
+.texts .regtable ul {
+    margin: 0;
+}
+
+.texts .regtable ul li {
+    padding: 0;
+    background: none;
+}
+
+.regtable ul.check li {
+    overflow: hidden;
+    zoom: 1;
+    margin: 0 0 10px;
+}
+
+.b-step span.jqTransformCheckboxWrapper {
+    margin: 0 5px 0 0;
+}
+
+.texts .steps_numb {
+  margin: 0;
+  font-size: 11px;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+}
+
+.go {
+  float: right;
+  margin: -20px 0 0;
+}
+
+.back {
+  float: left;
+  margin: -20px 0 0;
+}
+
+.do {
+  text-align: center;
+}
+
+.h-tenders-wrap button.jqTransformButton span span {
+    padding: 0 11px 0 16px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.add {
+    display: block;
+    width: 113px;
+    height: 17px;
+    background: url(../i/tenders/add-bg.png) 0 0 no-repeat;
+    font-size: 11px;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    line-height: 17px;
+}
+
+.b-step h4 {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+.b-step h3 i
+, .b-step h4 i {
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    color: #666;
+}
+
+.b-step .agree th {
+  width: auto;
+  white-space: nowrap;
+}
+
+.b-step .code {
+    float: left;
+    position: relative;
+    top: -2px;
+    margin: 0 0 -2px 8px;
+}
+
+.h-tenders-wrap .jqTransformSelectWrapper a.jqTransformSelectOpen {
+    background-image: url(../i/tenders/select_right.png);
+}
+
+.h-tenders-wrap .jqTransformSelectWrapper {
+    background: none;
+}
+
+.h-tenders-wrap .jqTransformSelectWrapper div span {
+    background: url(../i/forms/select_left.gif) 0 0 no-repeat; 
+}

@@ -1,0 +1,79 @@
+﻿div.leftmenu ul li {
+    font-family: Arial;
+    font-size: 11px;
+}
+.h-clear {
+  clear: both;
+  line-height: 0;
+  font-size: 0;
+  height: 1px;
+}
+/* Сообщение об ошибке, для позиционирования сообщения и крестика*/
+.h-sel2 .serv-subinfo { top:90%; }
+.h-sel2 .serv-subinfo .error-close {
+	right:25px;
+	top:-3px;
+	z-index:10001;
+}
+
+
+/* Без этой штуки съезжают инпуты на слайдерах в ие6*/
+.d-inp1 .jqTransformInputWrapper input { width:164px !important;}
+.d-inp2 .jqTransformInputWrapper input { width:30px !important;}
+.demo .ui-slider  {  position: relative !important;}
+.searchform {
+left: 235px;
+position: absolute;
+top: 2px;
+}
+/* Запрет переноса в колонке с прайсом
+.base-params td.col1 .price { white-space: nowrap;}*/
+
+/* услуги для описания тарифа, иначе слезает */
+.tar-services-list li .tsl-wrap img {
+	background:transparent url(../i/new_tar/radio2.png) no-repeat scroll 0 0;
+	float:left;
+	padding:0 4px;
+	margin-top:3px;
+	}
+
+.tar-services-list li.active .tsl-wrap img {
+	background-position:0 -12px;
+}
+/* Для того, чтоб скрыть глазиковый бекграунд у чекбокса */
+.eye { background-image: none;}
+
+.radio-error .b-ch span {border:1px solid red; }
+.radio-error .subcheck  span {border:none; }
+.error-popup { zoom:1;}
+.h-white-sidebar {z-index:49;}
+.h-newtar-col1 .numb_choose label { margin:0 30px 0 0; display:block; float:left;} 
+.h-eye a.jqTransformCheckbox {background:url("../i/forms/checkbox.gif") no-repeat scroll center top; }
+.h-eye a.jqTransformChecked {background-position: 0 -19px; };
+
+/* Ошибки в радио-баттонах  в блоке подбора */
+.pointlist-error .b-ch , .pointlist-error ul.subcheck { background-color: #fbe6e6 !important;  }
+.check-list .sub-show .pointlist-error ul.subcheck { padding:15px 0 10px 29px; }
+/* Бекграунд для маленьких слайдеров в зависимости от максимального значения */
+.slider-size-min .demo { background-image:url("../i/new_tar/demo-bg3.png");}
+.slider-size-mid .demo { background-image:url("../i/new_tar/demo-bg4.png");}
+.slider-size-max .demo { background-image:url("../i/new_tar/demo-bg2.png");}
+.tar-services-list .tsl-wrap label { width:170px; }
+.b-ch { width:170px; }
+.lab-w {width:130px ;}
+.check-list .sub-show .subcheck label {width:100px; margin-top: 0px; }
+.texts .b-detail-descr ul li.print  {background-image:url("../i/new_tar/glazic_icon2.jpg"); }
+.check-list .ch-div .b-ch .lab-w label {margin-top: 0px;}
+
+*html .ss-bg1 {
+	background: none transparent scroll repeat 0 0;	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.mts.ru/upload/templates/NDMainTemplate/v0/f/i/new_tar/ss-bg1.png",sizingMethod="crop");
+}
+*html .ss-bg3 {
+	background: none transparent scroll repeat 0 0;	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.mts.ru/upload/templates/NDMainTemplate/v0/f/i/new_tar/ss-bg3.png",sizingMethod="crop");
+}
+*html .h-white-sidebar .h-selred-wrap {width:200px;}
+.seltar-form .jqTransformInputInner input.valcol {
+    color: #B5B5B5;
+}
